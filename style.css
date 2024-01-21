@@ -350,6 +350,10 @@ body {
         justify-content: center;
         margin: 0;
     }
+    .scrolling-section2{
+        width: 500px;
+        height: 500px;
+    }
 }
 
 /* For medium screens */
@@ -357,11 +361,14 @@ body {
     .navbar {
         padding: 20px 20px;
     }
-
+    
     .content {
         padding: 0 10% 0 20px;
     }
-
+    .scrolling-section2{
+        width: 500px;
+        height: 500px;
+    }
     .products {
         margin-left: 2rem;
     }
@@ -413,26 +420,34 @@ body {
 /* For medium screens */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
     .content {
-        background-position: center bottom;
+        background-position: top center;  
     }
 
     .sec {
-        padding-top: 50px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
     }
 
     .products {
         margin-left: 10px;
     }
+
 }
 
 /* For large screens and above */
 @media only screen and (min-width: 1025px) {
     .content {
-        background-position: bottom right;
+        background-position: top center;
     }
 
     .sec {
-        padding-top: 100px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+
     }
 
     .products {
