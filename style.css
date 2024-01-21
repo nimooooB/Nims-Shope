@@ -238,6 +238,154 @@ body {
     background-color: #555;
 }
 
+/* For small screens */
+@media only screen and (max-width: 600px) {
+    .navbar {
+        padding: 20px 10px;
+    }
+
+    .navbar .menu {
+        display: none;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    .navbar .menu.active {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background-color: white;
+        width: 100%;
+        box-shadow: 0 0 14px rgb(0, 0, 0, 0.3);
+        z-index: 1000;
+    }
+
+    .navbar .menu.active li {
+        display: block;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .choice,
+    .items-section2 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+    .scrolling-section2{
+        width: 500px;
+        height: 500px;
+    }
+}
+
+/* For medium screens */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .navbar {
+        padding: 20px 20px;
+    }
+    
+    .content {
+        padding: 0 10% 0 20px;
+    }
+    .scrolling-section2{
+        width: 500px;
+        height: 500px;
+        align-items: center;
+    }
+    .products {
+        margin-left: 2rem;
+    }
+
+    .choice,
+    .items-section2 {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+    }
+}
+
+/* For large screens and above */
+@media only screen and (min-width: 1025px) {
+    .content {
+        padding: 0 5% 0 50px;
+    }
+
+    .products {
+        margin-left: 7rem;
+    }
+
+    .choice,
+    .items-section2 {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+    }
+}
+/* Add these styles for responsiveness */
+
+/* For small screens */
+@media only screen and (max-width: 600px) {
+    .content {
+        background-position: left center;
+
+    }
+
+    .sec {
+        padding-top: 20px;
+        margin-top: -50px;
+    }
+
+    .products {
+        margin-left: 10px;
+    }
+}
+
+/* For medium screens */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .content {
+        background-position: left center;  
+    }
+
+    .sec {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .products {
+        margin-left: 10px;
+    }
+
+}
+
+/* For large screens and above */
+@media only screen and (min-width: 1025px) {
+    .content {
+        background-position: top center;
+    }
+
+    .sec {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+
+    }
+
+    .products {
+        margin-left: 7rem;
+    }
+}
+
+
 .items-section2 {
     flex: 1;
     display: flex;
