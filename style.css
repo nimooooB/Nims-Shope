@@ -63,7 +63,7 @@ body {
     background-image: url(PhotoRoom-20231207_141048.png);
     background-size: 50%;
     background-repeat: no-repeat;
-    background-position: right center;
+    background-position: bottom right;
     padding: 0 5% 0 50px;
     display: flex;
     flex-direction: column;
@@ -309,4 +309,3 @@ body {
 .choice button:hover {
     background-color: rgb(238, 132, 71);
 }
-/* Updated responsive styles */
