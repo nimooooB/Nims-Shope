@@ -353,6 +353,7 @@ body {
     .scrolling-section2{
         width: 500px;
         height: 500px;
+         align-items: center;
     }
 }
 
@@ -410,6 +411,7 @@ body {
 
     .sec {
         padding-top: 20px;
+        margin-top: -50px;
     }
 
     .products {
