@@ -63,7 +63,7 @@ body {
     background-image: url(PhotoRoom-20231207_141048.png);
     background-size: 50%;
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: right center;
     padding: 0 5% 0 50px;
     display: flex;
     flex-direction: column;
